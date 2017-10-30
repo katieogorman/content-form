@@ -56,3 +56,17 @@ p {
 	line-height: 1.5em;
 	color: #777;
 }
+
+.image-right p {
+  margin: 1em;
+	font-family: 'Gira Sans Thin', 'Helvetiva Thin', Helvetica, sans-serif;
+	font-size: 90%;
+	text-align: center;
+}
+
+.image-left p {
+  margin: 1em;
+	font-family: 'Gira Sans Thin', 'Helvetiva Thin', Helvetica, sans-serif;
+	font-size: 90%;
+	text-align: center;
+}

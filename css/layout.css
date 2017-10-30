@@ -96,21 +96,22 @@ header {
   background-color: #ffffff;
 }
 
-.image-right {
-  float: right;
-  padding: 1em;
-  margin-left: 1em;
-  border: 1px solid #888;
+.gallery {
+  padding: 2em 14em 0.5em 14em;
+  background-color: #ffffff;
 }
 
-.image-right p {
-  
+.image-right {
+  float: right;
+  padding: 1em 1em 0 1em;
+  margin: 0 0 1em 1em;
+  border: 1px solid #888;
 }
 
 .image-left {
   float: left;
-  padding: 1em;
-  margin-right: 1em;
+  padding: 1em 1em 0 1em;
+  margin: 0 1em 1em 0em;
   border: 1px solid #888;
 }
 
