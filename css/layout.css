@@ -1,0 +1,207 @@
+
+/* div containing skip-navigation
+   and additional H1, for accessiblity */
+#skip {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/* make full-height elements possible */
+
+html,
+body {
+  /* Full height */
+  height: 100%;
+  width: 100%;
+  background-color: #D3D3D3;
+}
+
+.home {
+    /* The image used */
+  background-image: url("../img/waterlilies.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.history-banner {
+    /* The image used */
+  background-image: url("../img/luncheon on the grass.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.style-banner {
+    /* The image used */
+  background-image: url("../img/dancers.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+.artists-banner {
+    /* The image used */
+  background-image: url("../img/garden.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+
+.gallery-banner {
+    /* The image used */
+  background-image: url("../img/bridge.jpg");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+}
+
+/* ---------------------------------------------- */
+/* PARTS OF THE PAGE */
+
+nav {
+	margin: 0;
+  height: 70px;
+	padding: 1em 2em;
+	background: #ffffff;
+  text-align: center;
+}
+
+header {
+  padding-top: 1.56em;
+}
+
+.main {
+	padding: 2em 2em;
+}
+
+.body {
+  padding: 2em 14em 0.5em 14em;
+  background-color: #ffffff;
+}
+
+.image-right {
+  float: right;
+  padding: 1em;
+  margin-left: 1em;
+  border: 1px solid #888;
+}
+
+.image-right p {
+  
+}
+
+.image-left {
+  float: left;
+  padding: 1em;
+  margin-right: 1em;
+  border: 1px solid #888;
+}
+
+.image-portrait {
+  float: left;
+  height: 25%;
+  width: 25%;
+}
+
+footer {
+  /*position: absolute;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  height: 70px;
+	padding: 1.5em 2em 1em 2em;
+  background: #ffffff;
+  text-align: center;
+}
+
+
+
+/* three-wide columns */
+
+.mini {
+	width: 33%;
+	float: left;
+}
+
+
+
+/* ------------ mobile layout -------------- */
+
+@media only screen and (max-width: 600px) {
+/* Style adjustments for small screens */
+
+	/* remove margins */
+	.container {
+		width: 100%;
+		margin: 0;
+		padding: 0 0 0 0;
+		border: none;
+	}
+
+	/* linearize display */
+
+	.mini {
+		clear: both;
+		margin-bottom: 1em;
+		width: 100%;
+		padding: 0;
+	}
+
+}
+
+
+/* ---------------------------------------------- */
+/* NAVIGATION BAR */
+
+nav > ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav > ul > li {
+	display: inline-block;
+	margin: 4px;
+  margin-right: -9px;
+  border-left: 1px solid #888;
+}
+
+nav > ul > li:first-child {
+	border-left: none;
+}
+
+nav > ul > li > a {
+	display: block;
+	padding: 3px 30px;
+	border: none;
+	color: #888;
+	text-decoration: none;
+}
+
+nav > ul > li > .active {
+	font-weight: normal;
+	font-weight: 600;
+}
+
+nav > ul > li > a:hover {
+	background: #D6D9B8;
+  /*background: #F6DCDC;*/
+	color: #888;
+}

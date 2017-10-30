@@ -1,0 +1,58 @@
+
+body {
+	font-family: serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #888;
+}
+
+nav {
+	font-family: 'Gira Sans Thin', 'Helvetiva Thin', Helvetica, sans-serif;
+}
+
+footer {
+	font-family: 'Gira Sans Thin', 'Helvetiva Thin', Helvetica, sans-serif;
+	color: #888;
+}
+
+header {
+	font-size: 9em;
+	color: #ffffff;
+	font-weight: normal;
+	font-family: 'La Belle Aurore', cursive;
+	text-align: center;
+	opacity: 0.75;
+	padding-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 10em;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'La Belle Aurore', cursive;
+	text-align: center;
+	opacity: 0.75;
+	margin: 0;
+	line-height: 1.9em;
+
+}
+
+h2 {
+	margin: 0.5em 0 0.5em 0;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	font-weight: 600;
+	font-family: 'Gira Sans Thin', 'Helvetiva Thin', Helvetica, sans-serif;
+}
+
+p {
+	margin: 0 0 1em 0;
+}
+
+.intro {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	color: #777;
+}
